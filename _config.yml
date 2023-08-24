@@ -281,8 +281,8 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "docs/_post"
-      type: posts
+      path: "posts"
+      type: "posts"
     values:
       layout: single
       author_profile: true
